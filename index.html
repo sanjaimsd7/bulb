@@ -1,0 +1,62 @@
+<html>
+<head>
+
+<style>
+    body{
+       align-items:center;
+       background-color: #000;
+    }
+
+   
+form {
+  width: 600px;
+ 
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid white;
+  color: rgb(255, 255, 255);
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+button {
+    border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  font-size: large;
+  /* color: rgb(0, 0, 0); */
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 30px;
+
+}
+
+#myImg{
+ align-items: center;
+ padding-left: 260px;
+}
+</style>
+
+<script>
+  
+</script>
+</head>
+
+<body>
+   <h1 style="padding-left:560px ; color: white;">Light Bulb</h1>
+<form method="post">
+
+  <img id="myImg" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="bulb">
+
+<button type="button" type="submit" onclick="document.getElementById('myImg').src='https://www.w3schools.com/js/pic_bulbon.gif'">ON</button>
+<hr>
+<button type="button"  type="submit"  onclick="document.getElementById('myImg').src='https://www.w3schools.com/js/pic_bulboff.gif'" >OFF</button>
+
+</form>
+</body>
+</html>
